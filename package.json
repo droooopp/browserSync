@@ -1,0 +1,24 @@
+{
+  "name": "simple-browsersync",
+  "description": "simple-browsersync",
+  "version": "1.0.0",
+  "scripts": {
+    "bs": "node server.js",
+    "dev": "npm run bs"
+  },
+  "license": "ISC",
+  "browserslist": [
+    "ie 11",
+    "last 1 Edge versions",
+    "last 1 Firefox versions",
+    "last 1 Chrome versions",
+    "last 1 Safari versions",
+    "iOS >= 9",
+    "Android >= 5",
+    "last 1 ChromeAndroid versions"
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "private": true
+}
